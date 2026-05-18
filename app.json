@@ -1,0 +1,40 @@
+{
+  "expo": {
+    "name": "new-task-cloudcore",
+    "slug": "new-task-cloudcore",
+    "version": "1.0.0",
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "experiments": {
+      "tsconfigPaths": true
+    },
+    "plugins": [],
+    "orientation": "portrait",
+    "icon": "./assets/Logo.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/Logo.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#0A3D62"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/Logo.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.ahmedrefu.newtaskcloudcore"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "b7d0c65c-0030-4d01-a5c4-0b02727f7689"
+      }
+    }
+  }
+}
